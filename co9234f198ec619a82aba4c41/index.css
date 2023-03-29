@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    place-items: center;
+}
+
+#main{
+    background-image: url("./computer.jpg.jpg");
+    background-size: cover;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: cursive;
+}
+
+h2 {
+    color: brown;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#increment-btn:hover{
+    border: 3px solid gold;
+    background: darkred;
+}
+button:focus{
+    outline: none;
+}
+#increment-btn{
+background: darkred;
+}
+#save-btn:hover{
+    border: 3px solid gold;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+p{
+    font-size: 20px;
+    color: greenyellow;
+    filter: blur(40%)
+}
